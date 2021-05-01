@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id" dir="ltr">
+  <head>
+    <meta name="viewport" content="width= device-width, initial scale=1.0 ">
+    <title>Leifa Zone</title>
+    <style type="text/css">
+      *{
+        padding:  0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body{
+        background:#121212;
+        font-family: "Open Sans";
+        font-size: 15px;
+      }
+      .body-responsive{
+        margin-bottom: 10px;
+      }
+      p{
+        margin-bottom: 20px;
+        line-height: 1.5em;
+      }
+      h3{
+        margin-bottom: 20px;
+        border-bottom: 1px solid #aaa;
+      }
+      h5{
+        margin-bottom: 20px;
+        border-bottom: 1px solid #aaa;
+        margin-top: 20px;
+      }
+      a{
+        text-decoration: none;
+        color: #333;
+      }
+      a:hover{color: #666;}
+
+      .container{
+    width: 100%;
+      margin: 20px auto;
+      background: #d8e3e7;
+      overflow: hidden;
+      padding: 10px;
+      }
+      /*--------------------------header-------------------------------*/
+      .header{
+        border:1px solid #126e82;
+        padding: 10px ;
+        margin: 10px;
+
+        float: left;
+        width: 100%;
+        overflow: hidden;
+        background-color:rgba(19, 44, 51,0.5)
+      }
+      .header a{
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 30px;
+        text-decoration:none;
+        font-size: 17px;
+      }
+      .header a:hover{
+        background-color: #ddd;
+        color: black;
+      }
+      .header a.active{
+        background-color: rgba(81, 196, 211,0.5);
+        color: white;
+      }
+      /*----------------------------------main------------------------*/
+
+      /*------------------------middle------------------------------------*/
+      .middle{
+        width: 60%;
+        border: 1px solid #126e82;
+        background: rgba(81, 196, 211,0.5);
+        padding:10px;
+        margin: 10px;
+        float:left;
+      }
+      .middle img{
+        max width: 50%;
+        height:auto;
+      }
+      .middle a{
+
+        font-weight: bold;
+      }
+      .middle li{
+
+        display: block;
+          border-bottom: 1px solid #aaa;
+        padding: 10px;
+      }
+      /*------------------------------right-------------------------------*/
+      .right{
+        width: 100%;
+        border: 1px solid #126e82;
+        padding: 10px;
+        margin: 10px;
+        float:  left;
+
+      }
+      .right ul{
+        list-style-type: none;
+      }
+      .right ul li{display: block;}
+      .right ul li a{
+        display: block;
+        margin-bottom: 10px;
+        padding: 10px 5px;
+      }
+      .right ui li a:hover{
+        color: purple;
+      }
+      /*---------------------------------footer-----------------------------*/
+      .footer{
+        clear: both;
+        border: 1px solid #126e82;
+        padding: 10px;
+        margin: 10px;
+        width: 100%;
+        background-color:rgba(19, 44, 51,0.5)
+
+
+      }
+      .right img{
+        width: 13%;
+        height: auto;
+      }
+      .yt{
+        width: 12%;
+      }
+      .tw{
+        width: 12%;
+      }
+      /*---------------------------------media-----------------------------*/
+      @media only screen and (max-width:720px) {
+        .container,.header{
+          width: 50%;
+        }
+        .middle img{
+          max-width: 50%;
+        }
+        .left ul li a img{
+          max-width: 50%;
+          height: auto;}
+      }
+      @media only screen and (max-width:1080px) {
+        .container,.header{
+          width: 100%;
+        }
+        .middle img{
+          max-width: 100%;
+        }
+        .left ul li a img{
+          max-width: 100%;
+          height: auto;}
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="header">
+        <h1>LEIFA ZONE</h1>
+        <a href="index.html" >HOME</a>
+        <a href="Profil.html">PROFILE</a>
+        <a href="galeri.html">GALLERY</a>
+        <a href="contact.html"class="active">CONTACT</a>
+        </div> <!--/ .header -->
+        <div class="main">
+
+
+          <div class="right">
+            <h3>Disclaimer</h3>
+            <p>Semua review adalah pendapat pribadi, apabila anda tidak sependapat
+            silahkan kontak di bawah sini</p>
+            <h3>contact us</h3>
+            <p>
+              <ul>
+                <li><a href="mailto:rachmadreaptorz@gmail.com"> <img src="gmail.png" alt="Email">Email me </a></li>
+
+                <li><a href="https://twitter.com/kirinidn"><img class="tw"src="twitter.png" alt="Twitter">@KirinIDN </a></li>
+                <li><a href="https://www.youtube.com/channel/UC_U4hUywHKtHrUYz-VnrEmg"> <img class="yt"src="yt.png" alt="Youtube"> Leifa</a></li>
+              </ul>
+            </p>
+          </div><!--/ .right -->
+        </div><!--/ .main -->
+        <div class="footer">
+          <h4>LEIFA ZONE alpha</h4>
+          <p>Copyright; 2021 Leifa <br>
+            website ini dibuat bukan untuk komersial, melainkan untuk melaksanakan UTS pemrograman web
+          </p>
+        </div><!--/ .footer -->
+    </div>
+  </body>
+</html>
